@@ -1,4 +1,12 @@
 
+ATTENZIONE SOLO VERSIONE ITALIANO PER ORA!!!
+VERSIONI FUTURE AVRANNO SUPPORTO MULTI LINGUE:
+
+ITALIANO
+INGLESE
+TEDESCO
+SPAGNOLO
+
 📈 **Advanced PPA: Stock Passive Profit Calculator (4 Weeks)** 📊
 
 This tool allows you to easily and intuitively calculate the potential profit or loss of your stock investment over a 4-week horizon (approximately one month). Enter the key data and discover how your investments might evolve!
