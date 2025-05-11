@@ -1,4 +1,3 @@
-Okay, here's the description for your advanced PPA for GitHub in English:
 
 📈 **Advanced PPA: Stock Passive Profit Calculator (4 Weeks)** 📊
 
