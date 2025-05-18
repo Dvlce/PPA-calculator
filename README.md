@@ -1,30 +1,46 @@
 
-ATTENZIONE SOLO VERSIONE ITALIANO PER ORA!!!
-VERSIONI FUTURE AVRANNO SUPPORTO MULTI LINGUE:
+# 📊 PPA Advanced System Suite v1.2.0 f 🚀
 
-ITALIANO
-INGLESE
-TEDESCO
-SPAGNOLO
+**app by Dvlce**
+**design and UI / bug fix Gemini AI**
 
-📈 **Advanced PPA: Stock Passive Profit Calculator (4 Weeks)** 📊
+Welcome to the PPA Advanced System Suite! This console application combines powerful financial calculation tools to help you manage and project your investments and track your daily financial performance.
 
-This tool allows you to easily and intuitively calculate the potential profit or loss of your stock investment over a 4-week horizon (approximately one month). Enter the key data and discover how your investments might evolve!
+## Core Modules:
 
-**Current Features:**
+### 1. 📈 PPA Calculator: Stock Passive Profit Projection
+This tool allows you to easily and intuitively calculate the potential profit or loss of your stock investment. Enter key data such as initial price, weekly percentage change, units purchased, and analyst estimates to see how your investments might evolve over various periods.
 
-* **V.1.0.0 - Base Version:** Calculates weekly profit with basic input. No reinvestment management.
-* **V.1.0.1 - Reinvestment & Periodicity:** Ability to reinvest profits. Displays results in monthly, quarterly, and annual tables. 🔄🗓️
-* **V.1.0.2 - Analyst Scenarios + Real Profit:** Estimates net profit in Euros (€) based on market scenarios (Low, Medium, High) provided by analysts. 📉📊📈
-* **V.1.0.3 - UI Improvement & Code Structure:** Clearer and more intuitive user interface. Code reorganized for better readability and more robust input management. ✨💻
-* **V.1.1.0a - RGB Title Animation & Vertical Histogram:** A touch of color with an RGB animation on the title at startup. Added a vertical histogram to visualize weekly profit (positive values only). 🌈📊
+### 2. 💰 Data Register: Daily Performance & Balance Tracker
+Track your daily financial performance and maintain a running total balance. Start by entering your initial balance (e.g., from your salary), then log your net gains or losses each day. The system provides weekly and monthly summaries of your net performance.
 
----
+## Current Features (Suite V.1.2.0 f - Final - May 2025):
 
-**🚀 Coming Soon:**
-
-**V.1.1.1f - Pre-final version without bugs and all necessary features**
+* **Unified Suite:** Merged PPA Calculator & Data Register into a single application.
+* **Main Menu Navigation:** Easy-to-use main menu to access different modules.
+* **English Language & USD Currency:** Full application interface and calculations are in English using USD.
+* **Pixel Art Titles:** Enhanced visual appeal with custom pixel art titles for main sections.
+* **PPA Calculator Enhancements:**
+    * Calculates weekly profit with options for reinvestment.
+    * Displays results in short-term weekly, 1-month, 3-month, and 1-year projections. 🔄🗓️
+    * Estimates net profit in USD based on market scenarios (Low, Medium, High). 📉📊📈
+    * Animated title and loading spinner for calculations. 🌈⚙️
+    * Ensured all results are fully displayed before prompting to return to the menu.
+* **Data Register Enhancements:**
+    * **Running Balance:** Your initial balance (e.g., salary) acts as a running base, updated by daily entries.
+    * **Daily Net Performance Entry:** Input your net financial gain or loss for the day.
+    * **Animated Confirmation:** After each entry, a 2-second loading animation plays, followed by a detailed confirmation: `MM/DD/YYYY USD: +XX.XX - New Balance: $YYYY.YY`.
+    * **File Storage:** All data (initial balance, daily records) is saved locally to `dataregister_data.txt`.
+    * **Weekly & Monthly Net Reports:** View summaries of your net performance for the current week and month.
+* **Main Menu Status Update:**
+    * Displays a status line (in blue) if Data Register has been updated during the session: `Data Updated! Last Entry: MM/DD/YYYY (Net: +$XX.XX). Current Balance: $YYYY.YY`.
+* **Versions Section:**
+    * Dedicated menu option to view the detailed application version history.
+    * Requires explicit user input (typing "1") to return to the main menu from the versions screen.
+* **Delete Data Utility:**
+    * Safely reset all Data Register entries by deleting the `dataregister_data.txt` file after user confirmation.
 
 ---
 
 ⚠️ **FUTURE UPDATES WILL BE COMMUNICATED HERE IF THEY ARE CURRENTLY UNDER DEVELOPMENT OR IF A DATE HAS BEEN SET TO START WORKING ON THEM!** 🛠️🗓️
+
